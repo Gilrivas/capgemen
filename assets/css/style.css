@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap');
+
+h1, p, h2, h3, h4, h5, h6, a, button, .logo{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none !important;
+}
+h2, h5{
+    font-weight: 700 !important;
+}
+
+h4{
+    color: #737373 !important;
+}
+
+h1{
+    font-size: 60px !important;
+}
+
+i{
+    color: #737373 !important;
+    cursor: pointer;
+}
+
+header{
+    min-height: 100vh;
+    background: linear-gradient(107.2deg, #FBE38F 100%, #F1D256 100%);
+}
+.navbar-toggler{
+    width: 50px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0px;
+}
+.menu{
+    width: 100%;
+    padding: 0;
+    justify-content: flex-end;
+}
+.logo{
+    font-weight: 700;
+}
+li > a{
+    color: #737373 !important;
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background: #737373;
+    margin: 2px;
+}
+.weTake{
+  min-height: 95vh;
+}
+.weTake2{
+    width: 100%;  
+}
+.iconesMobile{
+    display: none;
+}
+.bi-cart3{
+    margin-left: 20px ;
+}
+.bi-search{
+    margin-left: 30px;
+}
+.buttonsH > button{
+    width: 200px;
+}
+
+
+/* SECTION FEATURES*/
+
+
+#features{
+    min-height: 80vh;
+    padding: 50px;
+}
+
+#features > .cartes > .card{
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    margin: 40px;
+}
+
+.titleSection > h2{
+    font-size: 50px !important;
+}
+.titleSection > p{
+    font-size: 24px !important;
+    color: #737373 !important;
+}
+
+#features > .cartes > .card > .card-body > .card-title{
+    margin-top: 15px !important;
+}
+.titleSection{
+    margin: 70px 0px;
+    width: 50%;
+}
+
+
+/*SECTION ADVICES*/
+
+#advices{
+    min-height: 100vh;
+    padding: 50px;
+}
+#advices > .cartes > .card{
+    margin: 20px 12px;
+}
+.titleSection2{
+    margin-bottom: 80px;
+    width: 50%;
+}
+.titleSection2 > h2{
+    font-size: 50px !important;
+}
+.titleSection2 > p{
+    font-size: 24px !important;
+    color: #737373 !important;
+    text-align: center;
+    width: 60%;
+}
+#advices > .cartes > .card > .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#advices > .cartes > .card > .card-body >p{
+    color: #737373;
+}
+
+/* SECTION BUSINESS*/
+
+#business{
+    min-height: 100vh;
+    padding: 50px;
+}
+.iconeSec3{
+    margin-right: 10px;
+}
+.boxCard3 > h5{
+    margin: 0;
+}
+
+
+/*Section CLIENTS */
+
+#clients{
+    position: relative;
+    min-height: 40vh;
+    background: #FAFAFA;
+}
+#clients::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background: #252B42;
+    top: calc(100% - 50px);
+}
+.clientsIcons{
+    margin: 10px 0px 0px 0px;
+    padding: 60px 0px;
+}
+.news{
+    background: #16697A;
+    color: white;
+    height: 120px;
+}
+.subscribe{
+    height: 50px;
+    width: 150px;
+    background: #FFA62B;
+    color: white;
+    border-radius: 0px 5px 5px 0px !important; 
+}
+.email{
+    height: 50px;
+    border-radius: 5px 0px 0px 5px !important; 
+}
+.newsletter{
+    z-index: 5;  
+}
+
+/* SECTION CONTACT */
+
+#contact{
+    min-height: 100vh;
+    background: #F3F3F3;
+}
+.blackCard{
+    background-color: #252B42 !important;
+    color: white;
+}
+
+/* FOOTER*/
+
+footer{
+    min-height: 50vh;
+}
+.btnContact{
+    background-color: #FFA62B!important;
+    color: white !important;
+}
+.menuFooter{
+    background: #16697A;
+    color: white ;
+    min-height: 30vh; 
+}
+.menuFooter > div > div > div{
+    margin: 30px;
+}
+.menuFooter > div > div > div >  a{
+    color: white !important;
+}
+.footerContact{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.footerIcones > a > img{
+    margin-left: 10px;
+}
+.footerLove{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .menu{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icones{
+        display: none;
+    }
+
+    .iconesMobile{
+        display: block;
+    }
+
+    .mobileMenu{
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .clientsIcons > div > div > img{
+        margin: 40px 0px;
+        width: 100px;
+    }   
+}
