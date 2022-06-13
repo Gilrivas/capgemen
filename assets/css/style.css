@@ -78,11 +78,21 @@ li > a{
 .btnNow{
     width: 185px;
     height: 50px;
+    background: #00A0C1 !important;
+    border: #00A0C1 !important;
+}
+
+.cardDigital{
+    background: #00A0C1 !important;
+    border: 1px solid #00A0C1 !important;
 }
 
 .btnLean{
     width: 140px;
     height: 50px;
+    color: #00A0C1 !important;
+   
+    border: 1px solid #00A0C1 !important;
 }
 
 /* SECTION FEATURES*/
@@ -90,7 +100,7 @@ li > a{
 
 #features{
     min-height: 80vh;
-    padding: 50px;
+    padding: 20px;
 }
 
 #features > .cartes > .card{
@@ -111,8 +121,9 @@ li > a{
     margin-top: 15px !important;
 }
 .titleSection{
-    margin: 70px 0px;
-    width: 50%;
+    margin: 25px 0px 50px 0px;
+    width: 100%;
+    
 }
 
 
@@ -126,9 +137,10 @@ li > a{
     margin: 20px 12px;
 }
 .titleSection2{
-    margin-bottom: 80px;
-    width: 50%;
+    margin-bottom: 50px;
+    width: 100%;
     padding: 50px;
+    letter-spacing: 0.2px;
 }
 .titleSection2 > h2{
     font-size: calc(2rem + 1vw) !important;
@@ -140,7 +152,9 @@ li > a{
     font-size: calc(1rem + .9vw) !important;
     color: #737373 !important;
     text-align: center;
-    width: 60%;
+    width: 80%;
+    letter-spacing: 0.2px;
+   
     
 }
 #advices > .cartes > .card > .card-body{
@@ -247,6 +261,10 @@ footer{
     justify-content: end;
 }
 
+.iconeFooter{
+    width: 15px;
+}
+
 .footerIcones > a > img{
     margin-left: 10px;
 }
@@ -289,6 +307,11 @@ footer{
         background: white;
        
     }
+
+    .titleSection2 > p{
+        width: 100% !important;
+        
+    }
     
     .newsletter{
         width: 100%;
@@ -318,9 +341,13 @@ footer{
         width: 100% !important;
     }
 
+    #clients{
+        padding: 0;
+    }
+
     #clients::before{
-        height: 20%;
-        background-color: #16697A;
+       
+        background-color: transparent;
     }
 
     .news > div > h3{
@@ -347,7 +374,7 @@ footer{
         
     }
     .menuFooter > div > div > div{
-        width: 50%;
+        width: 80%;
         
     }
 
